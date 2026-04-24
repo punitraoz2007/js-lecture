@@ -6,6 +6,15 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  return (
+    <>
+    <Route>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/sample' element={<Sample/>}/>
+    </Route>
+    </>
+  )
 
   return (
     <>
