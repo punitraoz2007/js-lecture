@@ -141,4 +141,8 @@ const Button=styled.button`
 //     }
 
 // }
+<<<<<<< HEAD
 // export default Sample
+=======
+// export default Sample
+>>>>>>> cde90e24a2e214960788c6132a0fcb5d9d37e8cf
